@@ -1,0 +1,101 @@
+ // log config
+ "files.associations": {
+    "*.err": "log"
+},
+"logFileHighlighter.customPatterns": [
+    {
+        "pattern": "lookatme",
+        "foreground": "#d96ae7",
+        "fontStyle": "bold"
+    },
+    {
+        "pattern": "NETWORK",
+        "foreground": "#f4ad42",
+        "fontStyle": "bold"
+    },
+    {
+        "pattern": "leader",
+        "foreground": "#f4ad42",
+        "fontStyle": "bold"
+    },
+    {
+        "pattern": "candidate",
+        "foreground": "#395c12",
+        "fontStyle": "bold"
+    },
+    {
+        "pattern": "follower",
+        "foreground":  "#1dc96a",
+        "fontStyle": "bold"
+    },
+    {
+        "pattern": "preMatch",
+        "foreground":  "#1dc96a",
+        "fontStyle": "bold"
+    },
+    {
+        "pattern": "false",
+        "foreground": "#af1f1f",
+    },
+    {
+        "pattern": "false]",
+        "foreground": "#af1f1f",
+    },
+    {
+        "pattern": "REJ",
+        "foreground": "#af1f1f",
+    },
+    {
+        "pattern": "true",
+        "foreground": "#1dc96a",
+    },
+    {
+        "pattern": "ACK",
+        "foreground": "#1dc96a",
+    },
+    {
+        "pattern": "true]",
+        "foreground": "#1dc96a",
+    },
+    {
+        "pattern": "send",
+        "foreground": "#ebd40a",
+    },
+    {
+        "pattern": "receive",
+        "foreground": "#14e9cc",
+    },
+    {
+        "pattern": "AE",
+        "foreground": "#e4c40e",
+    },
+    {
+        "pattern": "RV",
+        "foreground": "#dd1742",
+    },
+],
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": "log.error",
+            "settings": {
+                "foreground": "#af1f1f",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "log.warning",
+            "settings": {
+                "foreground": "#f4ad42",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "log.info",
+            "settings": {
+                "foreground": "#1dc96a",
+                "fontStyle": ""
+            }
+        }
+    ]
+}
