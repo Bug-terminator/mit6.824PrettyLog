@@ -2,7 +2,7 @@
 
 Pretty log for MIT6.824 distributed system.
 
-![avatar](pics\apearance.png)
+![avatar](https://github.com/Bug-terminator/mit6.824PrettyLog/blob/master/pics/apearance.png)
 
 ## Get Started
 
@@ -16,7 +16,7 @@ rf.DPrintf("[%d send AEs]",rf.me)
 
 will result in
 
-![](pics\result.png)
+![](https://github.com/Bug-terminator/mit6.824PrettyLog/blob/master/pics/result.png)
 
 You can DIY it according to your own needs.
 
@@ -24,11 +24,11 @@ You can DIY it according to your own needs.
 
 - Download plug-in
 
-  ![](pics\highliter.png)
+  ![](https://github.com/Bug-terminator/mit6.824PrettyLog/blob/master/pics/highliter.png)
 
 - press`ctrl+shift+p` and enter `settings`,choose `preference:open settings(JSON)`,Copy my settings.json into it.
 
-  ![](pics\settings.png)
+  ![](https://github.com/Bug-terminator/mit6.824PrettyLog/blob/master/pics/settings.png)
 
 ### go_test_many.sh
 
